@@ -9,6 +9,8 @@ Optional community records and photographs for demonstrating the Web4SL Location
 3. Upload the CSV and select **Import Locations**. This creates 99 published directory locations and associated filter terms. Re-importing can update matching CSV-managed records, so use a demo or staging site.
 4. Leave WordPress scheduled tasks running while the featured-image queue downloads the photos into the Media Library. Once downloaded, photos are served by that WordPress site.
 
+An optional [complete demo bundle](https://github.com/schlotterer/web4sl-location-sync-demo-data/releases/download/v1.0.0/web4sl-location-sync-demo-data-1.0.0.zip) contains the CSV, all 100 images, these instructions and the dataset manifest. Upload the CSV to the importer, not the ZIP. The CSV still uses pinned public image URLs.
+
 The admin's **Download Sample CSV** button provides a blank-start example for your own data. **Download Demo Communities CSV** provides this populated dataset.
 
 The communities, contact details, addresses and descriptions are demonstration data, not a verified directory of real businesses. The original placeholder contact details are preserved. Coordinates are blank: map positions require supplying coordinates or configuring the plugin's geocoding service. Records use `managed_by=csv`; change that column to `cms` if you want imported locations to remain manually editable.
