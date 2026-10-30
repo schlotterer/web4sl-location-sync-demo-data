@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "csv": "web4sl-location-sync-demo-communities.csv",
   "rows": 99,
   "columns": [
@@ -25,7 +25,7 @@
     "filters",
     "filters_json"
   ],
-  "csv_sha256": "27068d4a45e7360f2bb6c9110bc6099b0977b65d31314180bec71a891ab79ca0",
+  "csv_sha256": "0566bec9d54f30dc902d0ff5031081fd6d12980dbd57295249bb76c59dce7688",
   "image_repository": "schlotterer/web4sl-location-sync-demo-data",
   "image_commit": "8f10a21a330a1bff19a949955ff4457a3ad944b7",
   "source": "Existing demo library from schlotterer/web4sl-location-sync v1.1.1",
@@ -130,5 +130,16 @@
     "images/whiting-gardens.jpeg": "47bef003cf0eec953bb2a075187ca6bb3b19f2871cf61316ecd2a8427f187a36",
     "images/williamsburg-estates.jpeg": "bd12a17d3159324203b0a0aa771731165ce92258d71e1eb032092d130d7a2d07",
     "images/willow-haven.jpeg": "aa13dd696f59927d7f907e35ce88ef823b9bbc6c783f4e23206cf52449964873"
+  },
+  "coordinates": {
+    "required": true,
+    "method": "ZIP Code Tabulation Area representative internal points; approximate demo positions, not verified street-address geocodes",
+    "reference_file": "references/2026_Gaz_zcta_national.zip",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_zcta_national.zip",
+    "source_page": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+    "sha256": "f1e9046b91f6e60686a99343cb2752834c02b0764939403b331c78c017e2c54c",
+    "zip_field": "GEOID",
+    "latitude_field": "INTPTLAT",
+    "longitude_field": "INTPTLONG"
   }
 }
